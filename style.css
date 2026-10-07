@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.weather-container {
+    width: 400px;
+    padding: 30px;
+
+    text-align: center;
+
+    background: white;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 12px 18px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #2196f3;
+    color: white;
+
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #1976d2;
+}
+
+.weather-card {
+    margin-top: 25px;
+}
+
+.weather-icon {
+    font-size: 60px;
+    margin: 15px;
+}
+
+#temperature {
+    font-size: 45px;
+    margin: 10px;
+}
+
+#condition {
+    font-size: 20px;
+    color: #555;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 25px;
+    padding-top: 20px;
+
+    border-top: 1px solid #ddd;
+}
+
+.details span {
+    font-size: 25px;
+}
+
+.details p {
+    margin: 5px;
+    color: #666;
+}
+
+#error {
+    color: red;
+    margin-top: 15px;
+}
